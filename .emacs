@@ -92,3 +92,6 @@ There are two things you can do about this warning:
 
 ;;set custom theme
 (require 'color-theme-sanityinc-tomorrow)
+
+;;remove whitespace on save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
